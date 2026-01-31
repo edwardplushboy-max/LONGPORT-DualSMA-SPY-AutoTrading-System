@@ -160,7 +160,7 @@ tmux attach -t realtrade
 *   **Email**: [contact@jiangjingzhe.com](mailto:contact@jiangjingzhe.com)
 *   **WeChat**: jiangjingzhe_2004
 
-© 2026 RealTrade. All Rights Reserved.
+© 2026 DualSMA-SPY-AutoTrading-System. All Rights Reserved.
 ```bash
-realtrade --help
+python src/cli/main.py --help
 ```
