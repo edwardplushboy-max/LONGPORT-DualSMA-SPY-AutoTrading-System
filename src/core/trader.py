@@ -20,7 +20,7 @@ class Trader:
 
     def _check_connection(self):
         if self.ctx is None:
-            raise RuntimeError("TradeContext not initialized. Check your .env configuration.")
+            raise RuntimeError("TradeContext not initialized. Check your src/core/lp_config.py configuration.")
 
     def get_account_balance(self, currency: str = "USD") -> Dict[str, float]:
         """
