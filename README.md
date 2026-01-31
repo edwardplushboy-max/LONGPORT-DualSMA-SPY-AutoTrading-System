@@ -20,7 +20,13 @@ DualSMA-SPY-AutoTrading-System (原 RealTrade) 是一个全功能的量化交易
 *   **任务调度**: 内置调度器，自动处理开盘/收盘逻辑。
 *   **回测框架**: 向量化回测引擎，快速验证策略绩效。
 
-## 🛠 技术栈 | Tech Stack
+## � 联系作者 | Contact
+
+*   **Author**: JIANG JINGZHE
+*   **Email**: [contact@jiangjingzhe.com](mailto:contact@jiangjingzhe.com)
+*   **WeChat**: jiangjingzhe_2004
+
+## �🛠 技术栈 | Tech Stack
 
 *   **Language**: Python 3.11
 *   **Broker API**: [LongPort SDK](https://github.com/longportapp/openapi-python) (v3.x)
@@ -154,12 +160,6 @@ python src/cli/main.py run --mode live
 # 4. 回到会话
 tmux attach -t realtrade
 ```
-
-## 📮 联系作者 | Contact
-
-*   **Author**: JIANG JINGZHE
-*   **Email**: [contact@jiangjingzhe.com](mailto:contact@jiangjingzhe.com)
-*   **WeChat**: jiangjingzhe_2004
 
 © 2026 DualSMA-SPY-AutoTrading-System. All Rights Reserved.
 ```bash
