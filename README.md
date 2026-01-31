@@ -2,6 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![LongPort](https://img.shields.io/badge/LongPort-SDK-orange)](https://open.longportapp.com/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Status](https://img.shields.io/badge/Status-Active-green)]()
 
 Professional automated trading CLI tool tailored for SPY Moving Average Crossover strategy, built on top of the LongPort Open API.
