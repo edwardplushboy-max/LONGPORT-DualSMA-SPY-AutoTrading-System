@@ -34,8 +34,8 @@ DualSMA-SPY-AutoTrading-System (原 RealTrade) 是一个全功能的量化交易
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-repo/DualSMA-SPY-AutoTrading-System.git
-cd DualSMA-SPY-AutoTrading-System
+git clone https://github.com/khakhasshi/LONGPORT-DualSMA-SPY-AutoTrading-System.git
+cd LONGPORT-DualSMA-SPY-AutoTrading-System
 
 # 建议创建虚拟环境
 python -m venv venv
